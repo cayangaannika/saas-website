@@ -52,7 +52,7 @@ body {
 }
 
 .plan-regular {
-  background-color: #ccc;
+  background-color: #717171;
 }
 
 .price-plan {
@@ -121,11 +121,11 @@ a:hover {
 }
 
 .plan-gold {
-  background-color: #ccc;
+  background-color: #717171;
 }
 
 .plan-advanced {
-  background-color: #ccc;
+  background-color: #717171;
 }
 
 .sign-in {
