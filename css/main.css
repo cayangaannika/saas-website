@@ -82,23 +82,13 @@ header {
   width: 100%;
 }
 
+section {
+  background-color: black;
+  color: #fff;
+}
+
 .b1 {
   background-color: #f5f0f0;
-}
-
-.s1 {
-  background-color: black;
-  color: #fff;
-}
-
-.s2 {
-  background-color: black;
-  color: #fff;
-}
-
-.s3 {
-  background-color: black;
-  color: #fff;
 }
 
 body {
@@ -199,4 +189,19 @@ a:hover {
 
 .plan-advanced {
   background-color: #ccc;
+}
+
+.sign-in {
+  background-color: black;
+  color: #fff;
+}
+
+.btn-signin {
+  background-color: green;
+  color: #fff;
+}
+
+.sign-up-btn {
+  background-color: green;
+  color: #fff;
 }
