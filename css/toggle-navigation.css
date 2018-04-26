@@ -10,18 +10,13 @@ header {
   position: absolute;
 }
 
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
 .nav-check {
   position: absolute;
   top: -3em;
 }
 
-.nav-check:checked ~ .nav-label {
+.nav-check:checked ~ .nav {
   display: block;
-  background-color: #ccc;
 }
 
 .nav-label {
@@ -39,6 +34,11 @@ header {
   width: 100%;
 }
 
+.nav-check:checked ~ .nav-label {
+  display: block;
+  background-color: #ccc;
+}
+
 .nav-close {
   display: none;
 }
@@ -49,8 +49,4 @@ header {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
-}
-
-label {
-  color: #000;
 }
