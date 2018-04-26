@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-.navigation {
+.list-group {
   color: black;
 }
 
@@ -128,7 +128,7 @@ h1, h2, h3 {
 a {
   border-radius: 2px;
   box-shadow: none;
-  color:#fff;
+  color: #000;
   text-decoration:none;
 }
 
