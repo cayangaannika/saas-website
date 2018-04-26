@@ -1,33 +1,77 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
   font-family: "PT Sans", sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+body {
+  margin: 0;
 }
 
-.img-flex {
+.nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+header {
+  background-color: #0095B9;
+  position: relative;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #ccc;
+  display: none;
+  right: 0;
+  top: 100%;
+  width: 15em;
+}
+
+.nav-check {
+  position: absolute;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  width: 50px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.nav-open,
+.nav-close {
   display: block;
   width: 100%;
 }
 
-.banner {
-  position: relative;
-  overflow: hidden;
-  max-height: 24em;
+.nav-check:checked ~ .nav-label {
+  display: block;
+  background-color: #ccc;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 .banner-content {
@@ -36,4 +80,23 @@ html {
   left: 0;
   color: #fff;
   width: 100%;
+}
+
+.b1 {
+  background-color: #F5F0F0;
+}
+
+.s1 {
+  background-color: black;
+  color: #fff;
+}
+
+.s2 {
+  background-color: black;
+  color: #fff;
+}
+
+.s3 {
+  background-color: black;
+  color: #fff;
 }
