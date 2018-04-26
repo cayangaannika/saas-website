@@ -1,8 +1,13 @@
+header {
+  position: relative;
+}
+
 .nav {
   display: none;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  position: absolute;
 }
 
 .nav-check:checked ~ .nav {
@@ -11,22 +16,39 @@
 
 .nav-check {
   position: absolute;
-  top: -20em;
+  top: -3em;
 }
 
 .nav-check:checked ~ .nav-label {
   display: block;
-  background-color: #fff;
+  background-color: #ccc;
 }
 
 .nav-label {
   cursor: pointer;
   width: 40px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
-.nav-label img {
+.nav-open,
+.nav-close {
   display: block;
   width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 label {
