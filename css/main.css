@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background-color: #0095b9;
+  background-color: #fff;
   position: relative;
 }
 
@@ -32,10 +32,6 @@ header {
   right: 0;
   top: 100%;
   width: 15em;
-}
-
-.nav-check {
-  position: absolute;
 }
 
 .nav-check:checked ~ .nav {
@@ -83,7 +79,7 @@ header {
 }
 
 section {
-  background-color: black;
+  background-color: #0095b9;
   color: #fff;
 }
 
