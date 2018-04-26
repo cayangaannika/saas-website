@@ -58,7 +58,7 @@ body {
 .price-plan {
   border-radius: 4px;
   padding: 40px 20px;
-  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px;
 }
 
 .price-plan .plan-title {
@@ -70,7 +70,7 @@ body {
 }
 
 .price-plan .price {
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.18);
+  background: none repeat scroll;
   border-radius: 120px;
   width: 120px;
   height: 120px;
@@ -96,7 +96,7 @@ body {
 }
 
 .text-shadow-dark {
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  text-shadow: 1px 1px;
 }
 
 .text-center {
@@ -113,7 +113,7 @@ a {
   border-radius: 2px;
   box-shadow: none;
   color: #000;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 a:hover {
@@ -121,7 +121,7 @@ a:hover {
 }
 
 .plan-gold {
-  background-color: #ccc
+  background-color: #ccc;
 }
 
 .plan-advanced {
