@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Sign Up</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/toggle-navigation.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="unit xs-1-4 island-1-4 push-none">
+      <a href="index.html">
+        <img src="images/mint-logo.svg" alt="">
+      </a>
+    </div>
+    <nav>
+      <input type="checkbox" class="nav-check" id="nav-check">
+      <label class="nav-label" for="nav-check">
+        <img class="nav-open" src="images/drop-down-menu.svg" alt="Open Navigation">
+        <img class="nav-close" src="images/drop-down-close.svg" alt="Close Navigation">
+      </label>
+      <ul class="nav list-group">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tour.html">How it Works</a></li>
+        <li><a href="pricing.html">Find Savings</a></li>
+        <li><a href="sign-up.html">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form method="POST" action="https://formspree.io/annika.cayanga@gmail.com">
+      <section class="contact">
+        <div class="max-length island">
+          <h1 class="pad-t-2 push-none not-bold pad-b">Sign Up <strong>Free</strong>!</h1>
+          <p class="mega island-1 pad-t-0 pad-b">Create an account for all Mint products and services.</p>
+
+          <fieldset>
+            <legend class="push-0 mega italic bold">Personal details</legend>
+
+            <div class="grid">
+              <div class="unit xs-1 m-1 l-1-2 push-1-2">
+                <label for="name">Name</label>
+                <input id="name" name="name" required>
+              </div>
+              <div class="left unit xs-1 m-1 l-1-2 push">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+              </div>
+              <div class="unit xs-1 m-1 l-1-2 push">
+                <label for="number">Password</label>
+                <input id="number" type="number" required>
+              </div>
+              <div class="unit xs-1 m-1 l-1 push">
+                <label for="message">Address</label>
+                <textarea id="message" required></textarea>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend></legend>
+            <div class="push">
+              <label for="details">Why do you want to go to Mars?</label>
+              <textarea id="details" name="message" required></textarea>
+            </div>
+          </fieldset>
+
+          <button class="btn btn-light center-text center-block" type="submit">Register for the trip!</button>
+          <input type="hidden" name="_subject" value="Request to join the mission">
+
+        </div>
+      </section>
+    </form>
+  </main>
+</body>
+</html>
