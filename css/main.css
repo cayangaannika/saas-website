@@ -100,3 +100,103 @@ header {
   background-color: black;
   color: #fff;
 }
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+section {
+  margin:0
+}
+
+.span4 {
+  width: 370px;
+  float: left;
+  min-height: 1px;
+}
+
+.plan-regular {
+  background-color: #ccc;
+}
+
+.price-plan {
+  border-radius: 4px;
+  padding: 40px 20px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.price-plan .plan-title {
+  margin: 0 0 20px 0;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.05em;
+}
+
+.text-light {
+  color: #fff;
+}
+
+.price-plan .price {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.18);
+  border-radius: 120px;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.price-plan .amount-container {
+  padding: 35px 0 0;
+}
+
+.price-plan .currency {
+  left: -7px;
+  line-height: 14px;
+  position: relative;
+  top: -8px;
+}
+
+.price-plan .amount {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.price-plan .period {
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0;
+}
+
+.text-shadow-dark {
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.price-plan .plan-features {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  border-radius: 2px;
+  box-shadow: none;
+  color:#fff;
+  text-decoration:none;
+}
+
+a:hover {
+  background:#000;
+}
+
+.plan-gold {
+  background-color: #ccc
+}
+
+.plan-advanced {
+  background-color: #ccc;
+}
