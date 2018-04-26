@@ -94,20 +94,15 @@ h1, h2, h3 {
 
 .price-plan .currency {
   left: -7px;
-  line-height: 14px;
   position: relative;
   top: -8px;
 }
 
 .price-plan .amount {
-  font-size: 40px;
-  font-weight: bold;
   margin: 0;
 }
 
 .price-plan .period {
-  font-size: 12px;
-  line-height: 14px;
   margin: 0;
 }
 
